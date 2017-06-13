@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a.navbar-brand img {
+width: 40px;
+
+}
+
+a:hover {
+text-decoration: none;
+}
+.blockquote {
+    border-left-color: #f0ad4e;
+}
+#cover {
+    background: url('../img/pics/keyboard.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover h1, #carousel h3 {
+    font-weight: bold;
+}
+
+#cover-caption {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    align-items: center;
+}
+
+.card-footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.card-header {
+    border: 0;
+    background-color: #f0ad4e;
+}
+
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('../img/pics/man.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#about i {
+    font-size: 1.4em;
+    margin-right: 10px;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+#logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+#what-we-do .row {
+margin-left: 0;
+margin-right: 0;
+
+}
+
+#footer-main .second-block {
+font-size: 1.5em;
+}
+
+#footer-main .third-block {
+font-size: 3em;
+text-align: center;
+}
+
+#footer-main div {
+    align-self: center;
+}
+
+
+
+@media screen and (max-width: 991px) {
+   #startForm {
+       flex-flow: column;
+   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+      #footer-main .first-block {
+order: 4;
+}
+  #footer-main .second-block {
+order: 1;
+}
+  #footer-main .third-block {
+order: 2;
+}
+  #footer-main .fourth-block {
+order: 3;
+}
+  #footer-main div {
+text-align: center;
+}
+}
+
+
+
+
+
