@@ -145,7 +145,27 @@ max-height: 100%;
     .container {
         width: 100%;
     }
-    .section {
+    section {
         padding: 2rem;
     }
+
+    #feature-two .container, #feature-four .container, #feature-five .container {
+align-self: center;
+}
+#feature-five .container, #feature-seven .container {
+    width: 100% !important;
+}
+   #main-footer .first-block {
+order: 4;
+}
+  #main-footer .second-block {
+order: 1;
+}
+  #main-footer .third-block {
+order: 2;
+}
+  #main-footer .fourth-block {
+order: 3;
+}
+
 }
